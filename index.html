@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitcher Adjustments</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- odds input area-->
+
+    <div id = 'odds'>
+        <p>Enter odds</p>
+        <form id = 'form'autocomplete="off">
+            <input type="text" id="first_input" name="first_input" size = '7'>
+            <input type="text" id="second_input" name="second_input" size = '7'>
+            <button type = 'button' onclick = calc()>Submit</button>
+        </form>
+
+<!--output area-->
+
+            <div id = 'output'>
+                <div id = 'per'>
+                    <p id = 'percentage'>0</p>
+                </div>
+                <div id ='amer'>
+                    <p id = 'american'>0</p>
+                </div>
+            </div>
+
+            <div id = 'modify'>
+                <button type = 'button' onclick = 'modify()'>Adjust</button>
+            </div>
+            <div id = 'adjust'>
+                <p id = 'adjusted'>'NaN</p>
+            </div>
+            <div id = 'amer_new'>
+                <p id = 'american_new'>NaN</p>
+            </div>
+
+    </div>
+
+    <!-- buttons area-->
+
+    <div id = 'buttons_first'>
+        <p>First</p>
+        <button class = 'button_first' id = 'two_a' onclick = 'two_a()' >2.5</button>
+        <button class = 'button_first' id = 'three_a' onclick = 'three_a()'>3.5</button>
+        <button class = 'button_first' id = 'four_a' onclick = 'four_a()'>4.5</button>
+        <button class = 'button_first' id = 'five_a' onclick = 'five_a()'>5.5</button>
+        <button class = 'button_first' id = 'six_a' onclick = 'six_a()'>6.5</button>
+        <button class = 'button_first' id = 'seven_a' onclick = 'seven_a()'>7.5</button>
+        <button class = 'button_first' id = 'eight_a' onclick = 'eight_a()'>8.5</button>
+        <button class = 'button_first' id = 'nine_a' onclick = 'nine_a()'>9.5</button>
+    </div>
+
+    <div id = 'buttons_second'>
+        <p>Second</p>
+        <button class = 'button_second' id = 'two_b' onclick = 'two_b()' >2.5</button>
+        <button class = 'button_second' id = 'three_b' onclick = 'three_b()' >3.5</button>
+        <button class = 'button_second' id = 'four_b' onclick = 'four_b()' >4.5</button>
+        <button class = 'button_second' id = 'five_b' onclick = 'five_b()' >5.5</button>
+        <button class = 'button_second' id = 'six_b' onclick = 'six_b()' >6.5</button>
+        <button class = 'button_second' id = 'seven_b' onclick = 'seven_b()' >7.5</button>
+        <button class = 'button_second' id = 'eight_b' onclick = 'eight_b()' >8.5</button>
+        <button class = 'button_second' id = 'nine_b' onclick = 'nine_b()' >9.5</button>
+        <button class = 'button_second' id = 'ten_b' onclick = 'ten_b()' >10.5</button>
+        <button class = 'button_second' id = 'eleven_b' onclick = 'eleven_b()' >11.5</button>
+
+     </div>
+        
+
+
+
+
+
+
+
+    <script src = 'script.js'></script>
+</body>
+</html>
