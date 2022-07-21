@@ -1,0 +1,63 @@
+#odds{
+    background-color: aqua;
+    width:100px;
+    height:250px;
+    float:left;
+    margin:10px;
+    margin-right:25px;
+}
+
+#form{
+    width:50px;}
+
+#per{
+    background-color:cornflowerblue;
+    float:left;
+    height:35px;
+    width:48px;
+    margin-right:2px;
+
+}
+
+#amer{
+    background-color:cornflowerblue;
+    float:left;
+    height:35px;
+    width:48px;
+    margin-left:2px;
+   
+}
+
+#adjust{
+    background-color:cornflowerblue;
+    float:left;
+    height:35px;
+    width:48px;
+    margin-right:2px;
+
+}
+
+#amer_new{
+    background-color:cornflowerblue;
+    float:left;
+    height:35px;
+    width:48px;
+    margin-left:2px;
+}
+
+#buttons_first{
+    background-color:grey;
+    width:50px;
+    height:300px;
+    float:left;
+    align-content: center;
+}
+
+#buttons_second{
+    background-color:rgb(161, 157, 157);
+    width:50px;
+    height:300px;
+    float:left;
+    align-content: center;
+}
+
